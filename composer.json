@@ -1,4 +1,7 @@
 {
     "name": "moroz1999/cache",
-    "type": "package"
+    "type": "package",
+    "autoload": {
+	"psr-4": {"fluxbb\\cache\\": "src"}
+}
 }
