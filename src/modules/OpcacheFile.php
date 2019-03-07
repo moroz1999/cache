@@ -59,7 +59,7 @@ class OpcacheFile extends \fluxbb\cache\Cache
 
 	private function key($key)
 	{
-		return $key;
+		return sha1($key);
 	}
 
 	// Since we are emulating the TTL we need to override set()
