@@ -104,7 +104,7 @@ class Redis extends \fluxbb\cache\Cache
 
 	protected function _delete($key)
 	{
-		$this->redis->delete($key);
+		$this->redis->del($key);
 	}
 
 	public function clear()
